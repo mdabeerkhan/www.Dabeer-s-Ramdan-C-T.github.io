@@ -82,26 +82,29 @@ li:hover{
 }
 @media screen and (max-width:700px){
 .calender{
-    height: 125vh;
+    height: 150vh;
     width: auto;
     }
     .calender .overlay{
-        height: 125vh;
+        height: 150vh;
     }
     .month2 h1{
-        font-size: 45px;
+        font-size: 30px;
         padding: 5% 0;
     }
     .month2 p{
-        font-size: 22px;
+        font-size: 20px;
         padding: 0 15%;
     }
     nav a{
         font-size: 20px;
-        }
+    }
     .table1{
-        margin: 0 5%;
+        margin: 0 2%;
+        padding: 0 0 0 30%;
         text-align: start;
+        overflow-x: scroll;
+        overflow-y: scroll;
     }
     .table1 th{
         font-size: 20px;
@@ -167,10 +170,11 @@ li:hover{
 }
 @media screen and (max-width:700px){
     .timing{
-        height: 155vh;
+        height: 175vh;
     }
     .month {
-        height: 155vh;
+        height: 175vh;
+        overflow-y: scroll;
     }
     .month h1{
         font-size: 45px;
